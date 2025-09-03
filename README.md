@@ -51,11 +51,3 @@ source venv/bin/activate
 pip install -r src/requirements.txt -r tests/requirements.txt
 python -m unittest discover tests
 ```
-
-### Go
-
-To run the tests for the Go function, navigate to the `cloud_function_go/src` directory and run the following command:
-
-```
-go test
-```
